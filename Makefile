@@ -13,15 +13,15 @@ help:
 
 # Build Onyx Docker image
 build:
-	docker build --no-cache=$(no_cache) -t="obiba/onyx:snapshot" .
+	docker build --no-cache=$(no_cache) -t="obiba/onyx-demo:snapshot" .
 
 # Run a Onyx Docker instance
 run:
-	docker run -d -p 8888:8080 --name onyx obiba/onyx:snapshot
+	docker run -d -p 8888:8080 --name onyx obiba/onyx-demo:snapshot
 
 # Run a Onyx Docker instance with shell
 run-sh:
-	docker run -ti -p 8888:8080 --name onyx obiba/onyx:snapshot bash
+	docker run -ti -p 8888:8080 --name onyx obiba/onyx-demo:snapshot bash
 
 # Show logs
 logs:
