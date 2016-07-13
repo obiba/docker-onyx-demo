@@ -5,7 +5,7 @@ Onyx Demo web application is defined by the [onyx-demo project on Github](https:
 
 Default launch of a Onyx Demo container:
 
-`sudo docker run -d -p 8888:8080 --name onyx obiba/onyx:snapshot`
+`sudo docker run -d -p 8888:8080 --name onyx obiba/onyx-demo:snapshot`
 
 Then connect to:
 
