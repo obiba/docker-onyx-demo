@@ -15,7 +15,7 @@ ENV LC_ALL C.UTF-8
 
 # Install Onyx demo
 RUN \
-  cd /tmp && wget -q http://ci.obiba.org/view/Onyx/job/Onyx%20Demo/ws/target/onyx-demo.war && mv onyx-demo.war /var/lib/jetty/webapps && chown jetty:jetty /var/lib/jetty/webapps/onyx-demo.war
+  cd /tmp && wget -q http://ci.obiba.org/view/Onyx/job/Onyx%20Demo/ws/target/onyx-demo.war && mv onyx-demo.war /var/lib/jetty/webapps/root.war && chown jetty:jetty /var/lib/jetty/webapps/root.war
 
 # Define default command.
 CMD ["jetty.sh", "run"]
