@@ -9,4 +9,4 @@ Default launch of a Onyx Demo container:
 
 Then connect to:
 
-[http://localhost:8888/onyx-demo](http://localhost:8888/onyx-demo)
+[http://localhost:8888](http://localhost:8888)
