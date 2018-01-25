@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM jetty:9-jre7
+FROM jetty:9-jre8
 
 MAINTAINER OBiBa <dev@obiba.org>
 
